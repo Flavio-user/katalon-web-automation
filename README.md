@@ -1,17 +1,17 @@
-# Automatización Web con Katalon Studio
+# Automatización Web en Swag Labs con Katalon Studio
 
-Proyecto de pruebas automatizadas web construido con **Katalon Studio** para validar flujos y funcionalidades en navegador.
+Proyecto de pruebas automatizadas web construido con **Katalon Studio** sobre **Swag Labs** (`Page_Swag Labs`), con casos de prueba independientes y ejecución agrupada mediante *Test Suite*.
 
 ## Qué cubre este proyecto
-- Navegación web y ejecución de casos de prueba automatizados.
-- Interacción con elementos de la interfaz y validaciones sobre los flujos probados.
-- Organización de objetos en `Object Repository` y casos de prueba en `Test Cases`.
+- **Casos de prueba (`Test Cases`):** `TestLogin` y `TestLoginBloqueado`.
+- **Suite de pruebas (`Test Suites`):** `TS_LoginDataDriven` agrupando los casos de prueba.
+- **Objetos (`Object Repository/Page_Swag Labs`):** campos de usuario y contraseña, botón de login, agregar producto al carrito (`Sauce Labs Backpack`), *checkout* e información de compra.
 
 ## Tecnologías utilizadas
 - Katalon Studio
 - Automatización Web
 
 ## Cómo ejecutarlo
-1. Abra el proyecto en **Katalon Studio**.
-2. Seleccione el caso de prueba dentro de `Test Cases`.
-3. Ejecútelo con el navegador configurado en tu entorno.
+1. Abra el proyecto (`MiPrimerProyectoWeb`) en **Katalon Studio**.
+2. Ejecute un caso de prueba desde `Test Cases` o corra la suite `TS_LoginDataDriven` desde `Test Suites`.
+3. Revise los resultados en la consola y el visor de logs de Katalon.
