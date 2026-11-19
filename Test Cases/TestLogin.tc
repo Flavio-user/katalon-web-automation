@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TestLogin</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Flavio Matias Baldini</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Flavio Matias Baldini</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>834b4177-2ce6-497f-b32a-bbb391c96f20</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>834b4177-2ce6-497f-b32a-bbb391c96f20</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>acee6e17-9ba9-4962-b5d0-aec06701cd2a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>147c4754-f22d-419a-9d33-27f4dd2c41e2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7b2d9cfd-02ec-44ac-b7d2-3a865992b937</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'standard_user'</defaultValue>
+      <description>Usuario para el inicio de sesión</description>
+      <id>147c4754-f22d-419a-9d33-27f4dd2c41e2</id>
+      <masked>false</masked>
+      <name>usuario</name>
+   </variable>
+   <variable>
+      <defaultValue>'qcu24s4901FyWDTwXGr6XA=='</defaultValue>
+      <description>Contraseña del sistema</description>
+      <id>7b2d9cfd-02ec-44ac-b7d2-3a865992b937</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

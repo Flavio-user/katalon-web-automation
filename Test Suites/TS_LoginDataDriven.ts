@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_LoginDataDriven</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <maxConcurrentInstances>1</maxConcurrentInstances>
+   <numberOfRerun>0</numberOfRerun>
+   <orchestration>CLASSIC</orchestration>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>840077d1-72f3-43c0-8b06-cedf7a602443</testSuiteGuid>
+   <testCaseLink>
+      <guid>4d84a44d-5eb5-4c37-b6ea-37003c3d697f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestLogin</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>f1202f01-ae8c-4da7-aa11-4ee03ad2a9cb</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/ExcelUsuarios</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>f1202f01-ae8c-4da7-aa11-4ee03ad2a9cb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Usuario</value>
+         <variableId>147c4754-f22d-419a-9d33-27f4dd2c41e2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f1202f01-ae8c-4da7-aa11-4ee03ad2a9cb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>7b2d9cfd-02ec-44ac-b7d2-3a865992b937</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2a890286-625f-4e3e-a5ed-feb28ffe4db1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestLoginBloqueado</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>0370b532-59c2-46ec-931e-9fcbcd882169</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>2-2</value>
+         </iterationEntity>
+         <testDataId>Data Files/ExcelUsuarios</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>0370b532-59c2-46ec-931e-9fcbcd882169</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Usuario</value>
+         <variableId>0b194829-8a19-47e1-a1a7-5b8257072da7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0370b532-59c2-46ec-931e-9fcbcd882169</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>b1f72cc6-ad4d-44bb-b13d-3af2628eb1d6</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

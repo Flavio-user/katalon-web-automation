@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TestLoginBloqueado</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Flavio Matias Baldini</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>834b4177-2ce6-497f-b32a-bbb391c96f20</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f590b303-4289-438e-987b-ba7f26fa1c0e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0b194829-8a19-47e1-a1a7-5b8257072da7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b1f72cc6-ad4d-44bb-b13d-3af2628eb1d6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'locked_out_user'</defaultValue>
+      <description>Usuario para el inicio de sesión</description>
+      <id>0b194829-8a19-47e1-a1a7-5b8257072da7</id>
+      <masked>false</masked>
+      <name>usuario</name>
+   </variable>
+   <variable>
+      <defaultValue>'qcu24s4901FyWDTwXGr6XA=='</defaultValue>
+      <description>Contraseña del sistema</description>
+      <id>b1f72cc6-ad4d-44bb-b13d-3af2628eb1d6</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
